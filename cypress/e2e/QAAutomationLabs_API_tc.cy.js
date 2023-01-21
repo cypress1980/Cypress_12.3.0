@@ -1,10 +1,10 @@
-it("GET API testing Using Cypress API Plugin", () => {
+it("GET API : Get the Data", () => {
   cy.request("GET", "https://reqres.in/api/users?page=2").should((response) => {
     expect(response.status).to.eq(200);
   });
 });
 
-it("POST API testing Using Cypress API Plugin", () => {
+it("POST API : POST the data ", () => {
   cy.request("POST", "https://reqres.in/api/users", {
     name: "morpheus",
     job: "leader",
@@ -13,7 +13,7 @@ it("POST API testing Using Cypress API Plugin", () => {
   });
 });
 
-it("PUT API testing Using Flip Plugin", () => {
+it("PUT API : Update the data by provide new data", () => {
   cy.request("PUT", "https://reqres.in/api/users/2", {
     name: "morpheus",
     job: "zion resident",
@@ -22,7 +22,7 @@ it("PUT API testing Using Flip Plugin", () => {
   });
 });
 
-it("DELETE API testing Using Cypress API Plugin", () => {
+it("DELETE API : Delete the data providing the id", () => {
   cy.request("DELETE", "https://reqres.in/api/users/2").should((response) => {
     expect(response.status).to.eq(204);
   });
