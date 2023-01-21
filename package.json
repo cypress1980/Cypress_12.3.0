@@ -1,0 +1,17 @@
+{
+  "name": "cypress_headless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kailash Pathak",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.3.0"
+  },
+  "devDependencies": {
+    "playwright-webkit": "^1.29.2"
+  }
+}

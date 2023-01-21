@@ -1,0 +1,43 @@
+{
+  "lambdatest_auth": {
+    "username": "zackjohn1945",
+    "access_key": "hwKjRzRvETmatnemD9eMS9qOhx1UyxvMgpW80CrV8MU9YF7J8b"
+  },
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "platform": "Windows 10",
+      "versions": ["latest-1"]
+    },
+    {
+      "browser": "Firefox",
+      "platform": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "Electron",
+      "platform": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "Edge",
+      "platform": "macOS Monterey",
+      "versions": ["latest-1"]
+    }
+  ],
+  "run_settings": {
+    "build_name": "Headless Browser Testing build-name",
+    "parallels": 2,
+    "specs": "./cypress/e2e/*.cy.js",
+    "ignore_files": "",
+    "network": true,
+    "headless": true,
+    "npm_dependencies": {
+      "cypress": "12.3.0"
+    }
+  },
+  "tunnel_settings": {
+    "tunnel": false,
+    "tunnel_name": null
+  }
+}
