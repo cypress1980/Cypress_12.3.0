@@ -27,7 +27,7 @@
   ],
   "run_settings": {
     "build_name": "Headless Browser Testing build-name",
-    "parallels": 2,
+    "parallels": 3,
     "specs": "./cypress/e2e/*.cy.js",
     "ignore_files": "",
     "network": true,
