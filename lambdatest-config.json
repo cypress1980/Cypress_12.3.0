@@ -16,7 +16,7 @@
     },
     {
       "browser": "Electron",
-      "platform": "Windows 10",
+      "platform": "Windows 11",
       "versions": ["latest"]
     }
   ],
