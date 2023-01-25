@@ -6,23 +6,18 @@
   "browsers": [
     {
       "browser": "Chrome",
-      "platform": "Windows 10",
+      "platform": "Windows 11",
       "versions": ["latest-1"]
     },
     {
       "browser": "Firefox",
-      "platform": "Windows 10",
+      "platform": "Windows 11",
       "versions": ["latest"]
     },
     {
       "browser": "Electron",
       "platform": "Windows 10",
       "versions": ["latest"]
-    },
-    {
-      "browser": "Edge",
-      "platform": "macOS Monterey",
-      "versions": ["latest-1"]
     }
   ],
   "run_settings": {
